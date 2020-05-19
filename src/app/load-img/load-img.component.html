@@ -1,0 +1,7 @@
+<label>
+  <input #imageInput
+         type="file"
+         accept="image/*"
+         (change)="processFile(imageInput)">
+</label>
+<button type="button" (click)="addItem(imageInput)">Ok</button>
